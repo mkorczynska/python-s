@@ -47,6 +47,10 @@ a = int(input("Podaj pierwszą liczbę: "))
 dzialanie = str(input("Jakie działanie chcesz wykonać? \n + \n - \n * \n / \n "))
 b = int(input("Podaj drugą liczbę: \n"))
 
+while dzialanie == "/" and b==0:
+  print(f"Działanie, które chcesz wykonać to dzielenie. Dzielnik nie może być równy 0. Podaj inną liczbę.")
+  b = int(input("Podaj drugą liczbę: \n"))
+
 obliczenia = dzialania[dzialanie]
 wynik = obliczenia(a, b)
 print(f"Wykonane przez Ciebie działanie to: {a} {dzialanie} {b} = {wynik}")
