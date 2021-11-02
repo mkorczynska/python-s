@@ -1,6 +1,6 @@
 ﻿print("Podaj pierwszą liczbę:")
 x=int(input())
-print("Podaj drugą liczbę:")
+print("Podaj szybko drugą liczbę:")
 y=int(input())
 
 print("Wskaż jakie działanie chcesz wykonać:\n")
