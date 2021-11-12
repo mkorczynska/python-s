@@ -13,5 +13,7 @@ for i in range(6):
 print(*losowanie, sep=', ')
 print(*strzaly, sep=', ')
 
+trafione=set(losowanie)&set(strzaly)
 
+print(f"Trafiłeś {len(trafione)} z 6 liczb. Oto one: {trafione}")
 
