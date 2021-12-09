@@ -9,3 +9,4 @@ else: #w przeciwnym razie (jeżeli wcześniejszy warunek nie został spełniony)
     wartosc_bezwgledna=liczba*(-1) #wartość bezwzględną liczby ujemnej można policzyć mnożąc ja razy -1
     print("Wartość bezwzględna liczby", liczba, "wynosi", wartosc_bezwgledna) #napisz, że wartość bezwględna jest równa zmiennej  wartosc_bezwzgledna
     print("Wartość bezwzględna tej liczby to", liczba*(-1))
+    
