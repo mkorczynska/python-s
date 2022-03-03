@@ -3,7 +3,7 @@ liczba2=int(input("Podaj drugą liczbę: "))
 
 dzialanie=input("Podaj działanie: + dodawanie, - odejmowanie, * mnożenie, / dzielenie")
 
-if dzialanie=="+":
+if dzialanie=="+": #jeżeli uzytkownik wybral +
     wynik=liczba1+liczba2
     print("Wynik dodawania to", wynik)
 elif dzialanie=="-":

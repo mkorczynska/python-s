@@ -10,9 +10,9 @@ elif strzal>liczba:
 else:
     print("tak, to ta liczba")
  
-if strzal==liczba:
-    print("Tak, to ta liczba")
-elif strzal>liczba:
-    print("za duzo")
-else:
-    print("za malo")
+#if strzal==liczba:
+#    print("Tak, to ta liczba")
+#elif strzal>liczba:
+#    print("za duzo")
+#else:
+#    print("za malo")

@@ -5,9 +5,6 @@ znaki=["kamień", "papier", "nożyce"]
 punkty_k=0
 punkty_g=0
 
-#komputer=random.choice(znaki)
-#gracz=input("kamień, papier czy nożyce?")
-
 while punkty_g<3 and punkty_k<3:
     komputer=random.choice(znaki)
     gracz=input("kamień, papier czy nożyce? ")
@@ -37,6 +34,6 @@ while punkty_g<3 and punkty_k<3:
     elif gracz=="nożyce" and komputer=="papier":
         punkty_g+=1
         print("Punkt dla gracza")
-        print(f"Gracz - {punkty_g}, komputer - {punkty_k}")
+        print(f"Gracz - {punkty_g}, komputer - {punkty_k}")  
     else:
         print("Nieprawidłowy wybór. Spróbuj jeszcze raz.")

@@ -18,5 +18,7 @@ else: #w przeciwnym razie (jeżeli żaden z wcześniejszych warunków nie jest s
 
 if liczba%2==0: #jeżeli reszta z dzielenia liczby przez 2 jest równa 0
     print("Liczba", liczba, "jest podzielna przez 2.") #napisz, że liczba jest podzielna przez 2
+    print("Liczba", liczba, "jest parzysta")
 else: #w przeciwnym razie (jeżeli wcześniejszy warunek nie jest spełniony)
     print("Liczba", liczba, "nie jest podzielna przez 2.") #napisz, że liczba nie jest podzielna przez 2
+    print("Liczba", liczba, "jest nieparzysta")
