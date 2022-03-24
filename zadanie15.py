@@ -1,5 +1,5 @@
 ﻿import random
-
+  
 znaki=["kamień", "papier", "nożyce"]
 
 punkty_k=0

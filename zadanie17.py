@@ -1,16 +1,9 @@
 ﻿import random
-slowa=[]
-
-f = open("slowa.txt", "r")
-for x in f:
-    x=x.strip()
-    slowa.append(x)
-
-f.close()
+slowa=["absztyfikant", "relatywizm", "koperek"]
 
 zycia=5
 
-zgadywane=random.choice(slowa)
+zgadywane=random.choice(slowa)   
 dlugosc=len(zgadywane)
 tablica=["_"]*dlugosc
 while zycia>0:

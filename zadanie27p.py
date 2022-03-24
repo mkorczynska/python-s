@@ -1,5 +1,5 @@
 ﻿slownik={  
-    "dom": "house",
+    "dom": "house",  
     "kot": "cat",
     "pies": "dog" 
 }

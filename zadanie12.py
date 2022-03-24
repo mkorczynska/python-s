@@ -1,5 +1,7 @@
 ﻿zespoly=['YONAKA', 'Alter Bridge', 'Asking Alexandria', 'PVRIS']
 
+print("Zespol nr 1: ",zespoly[1])
+
 #wyswietlanie listy za pomoca petli
 print("Lista zespołów:")
 for i in zespoly:
